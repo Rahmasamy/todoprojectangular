@@ -1,0 +1,18 @@
+.bodychild {
+    width: 100%;
+    min-height: 200px;
+    background-color: #dc3545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+/* styles.css */
+.delete-icon {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .delete-icon i {
+    font-size: 1.5rem;
+  }

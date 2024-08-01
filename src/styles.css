@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(235, 225, 225);
+    flex-direction: column;
+    padding: 50px;
+}
+app-headerchild {
+    width: 100%;
+    text-align: center;
+  
+}
+app-bodychild {
+    width: 100%;
+    margin-top: 70px;
+}
+table {
+    width: 90%;
+}
+.inputcustome {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 30px;
+    
+}

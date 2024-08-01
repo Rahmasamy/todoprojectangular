@@ -1,0 +1,4 @@
+<div class="container">
+    <app-headerchild (taskAdded)="onTaskAdded($event)"></app-headerchild>
+    <app-bodychild [tasks]="tasks" (taskDeleted)="onTaskDeleted($event)"> </app-bodychild>
+</div>
